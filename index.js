@@ -5,14 +5,37 @@
 Extra: con oraciones
 */
 
-
+function palindromo(palabra){
+    let palabraVolteada = palabra.split("").reverse().join("");
+    if(palabra == palabraVolteada){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
 
 /*
 2. Crea una función llamada longestCountry(), esta función recibirá de parámetro un arreglo con nombres de distintos países, la función deberá retornar el país con mayor número de letras. 
 Toma como ejemplo, del siguiente arreglo de países:
 
-const paises = ["México", "Panamá", "Guatemala", "El Salvador"]
+const paises = ["México", "Colombia", "Peru", "El Salvador"]
 */
+
+const paises = ["México", "Colombia", "Peru", "El Salvador"];
+
+function paisMasLargo(arregloDePaises){
+
+    let paisLargo = "";
+    for(let i = 0; i < arregloDePaises.length; i++ ){
+
+        if(arregloDePaises[i].length > paisLargo.length){
+            paisLargo = arregloDePaises[i];
+        }
+    }
+    return paisLargo;
+
+}
 
 
 
