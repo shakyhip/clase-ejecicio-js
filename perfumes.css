@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: url(https://th.bing.com/th/id/OIP.Cv1VZHQVuwnHpfjOvsEv2QHaEK?pid=ImgDet&rs=1);
+    margin-top: 100px;
+}
+
+h1{
+	position: relative;
+	float: left;
+	left: 285px;
+	font-family: Ginebra;
+	font-size: 100px;
+	letter-spacing:.6cm;
+	color:  #AE88C8 ;
+	margin-top: -190px;
+}
+
+h2{
+	position: relative;
+	float: left;
+	left: -155px;
+	font-family:comic sns ms; 
+	font-size:55px; 
+	letter-spacing:.4cm;
+	color:pink;
+	margin-top: 50px;
+	text-align: center;
+}
+.conta{
+	position: relative;
+	float: left;
+	left: -415px;
+	margin-top: 250px;
+	font-family:comic sns ms; 
+	color:violet;
+}
+
+.boton{
+	width: 23%;
+	background-color: pink;
+	color: purple;
+	border: none;
+	border-radius: 6px;
+	font-weight: bold;
+	margin: 3% 2%;
+	font-size: 12px;
+	padding: 12px 0px;
+	position:relative;
+	left: 35%;
+}
