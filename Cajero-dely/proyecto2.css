@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #EE7A9E;
+    margin-top: 100px;
+}
+
+.logo{
+	position:absolute;
+	left:108px;
+	border-style:none;
+	border-width:3cm;
+	border-radius: 2cm;
+	width:150px;
+	float:left;
+	margin-top: -155px;
+}
+
+h1{
+	position: relative;
+	float: left;
+	left: 56px;
+	font-family: Ginebra;
+	font-size: 32px;
+	letter-spacing:.2cm;
+	color:  #673645 ;
+	margin-top: -95px;
+
+}
+.bots{
+
+}
+.boton1{
+	width: 100%;
+	background-color: pink;
+	color: purple;
+	border: none;
+	border-radius: 6px;
+	font-weight: bold;
+	margin: 3% 2%;
+	font-size: 15px;
+	padding: 12px 0px;
+	position:relative;
+	left: -470%;
+	margin-top: 205px;
+	cursor: pointer;
+}
+
+.boton2{
+	width: 100%;
+	background-color: pink;
+	color: purple;
+	border: none;
+	border-radius: 6px;
+	font-weight: bold;
+	margin: 3% 2%;
+	font-size: 15px;
+	padding: 12px 0px;
+	position:relative;
+	left: -470%;
+	margin-top: 25px;
+	cursor: pointer;
+}
+
+.boton3{
+	width: 8%;
+	background-color: pink;
+	color: purple;
+	border: none;
+	border-radius: 6px;
+	font-weight: bold;
+	margin: 3% 2%;
+	font-size: 15px;
+	padding: 12px 0px;
+	position:absolute;
+	left: 58%;
+	margin-top: -135px;
+	cursor: pointer;
+}
+
+.boton4{
+	width: 8%;
+	background-color: pink;
+	color: purple;
+	border: none;
+	border-radius: 6px;
+	font-weight: bold;
+	margin: 3% 2%;
+	font-size: 15px;
+	padding: 12px 0px;
+	position:absolute;
+	left: 58%;
+	margin-top: -65px;
+	cursor: pointer;
+}
+
+#pa{
+	width: 33%;
+	background-color: #1877f2;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	font-weight: bold;
+	margin: 3% 2%;
+	font-size: 35px;
+	padding: 12px 0px;
+	position:absolute;
+	left: 35%;
+	margin-top: 495px;
+}
+
+#pe{
+	width: 33%;
+	background-color: #1877f2;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	font-weight: bold;
+	margin: 3% 2%;
+	font-size: 35px;
+	padding: 12px 0px;
+	position:absolute;
+	left: 35%;
+	margin-top: 575px;
+}
+
+#pi{
+	width: 33%;
+	background-color: #1877f2;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	font-weight: bold;
+	margin: 3% 2%;
+	font-size: 35px;
+	padding: 12px 0px;
+	position:absolute;
+	left: 35%;
+	margin-top: 665px;
+}
+
+#po{
+	width: 33%;
+	background-color: #1877f2;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+	font-weight: bold;
+	margin: 3% 2%;
+	font-size: 35px;
+	padding: 12px 0px;
+	position:absolute;
+	left: 35%;
+	margin-top: 765px;
+}
